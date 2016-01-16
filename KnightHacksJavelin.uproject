@@ -2,5 +2,20 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.10",
 	"Category": "",
-	"Description": ""
+    "Description": "",
+    "Modules": [
+        {
+            "Name": "KnightHacksJavelin",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "MyoPlugin",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+                "Enabled": true
+        }
+    ]
 }
